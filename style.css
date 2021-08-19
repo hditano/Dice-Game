@@ -60,4 +60,13 @@ h1 {
     width: 150px;
     height: 50px;
     border-radius: 5px;
+    display: block;
+}
+
+.reset-btn {
+    background: pink;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    display: none;
 }
