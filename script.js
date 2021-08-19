@@ -18,12 +18,16 @@ function randomDice() {
 
 diceButton.addEventListener('click', function () {
     if (player1Turn === true) {
+        totalP2.classList.remove('total-shadow');
+        totalP1.classList.add('total-shadow');
         let dice = randomDice();
         let scoreP1 = player1 += dice;
         player1Score.textContent = `${player1}`;
         totalP1.textContent = dice;
         player1Turn = false;
     } else {
+        totalP1.classList.remove('total-shadow');
+        totalP2.classList.add('total-shadow');
         let dice = randomDice();
         let scoreP1 = player2 += dice;
         player2Score.textContent = `${player2}`;
