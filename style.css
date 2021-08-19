@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #a8e6cf;
+}
+
+.container {
+    background: #FFF;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.scores {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.total-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.total-p1, .total-p2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background: pink;
+    margin: 0 auto;
+    font-size: 80px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.dice-btn {
+    background: pink;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
