@@ -42,6 +42,11 @@ h1 {
     background: pink;
     margin: 0 auto;
     font-size: 80px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.total-shadow {
+    box-shadow: 0 0 5px 5px red;
 }
 
 .button {
